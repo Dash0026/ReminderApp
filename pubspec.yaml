@@ -1,0 +1,38 @@
+name: reminder_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.0.0' # This allows any Dart 3.x.x version, recommended.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Database
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1 # To get the application documents directory
+  path: ^1.8.3 # For joining paths
+  sqflite_common_ffi: ^2.3.0+1 # Crucial for cross-platform compatibility and initialization
+
+  # Calendar
+  table_calendar: ^3.0.9
+
+  # State Management (Provider is simple for this example)
+  provider: ^6.0.5
+
+  # Date formatting
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
